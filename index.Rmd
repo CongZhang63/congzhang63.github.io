@@ -51,6 +51,8 @@ Here is my apartment, Baoli Jiangshang Mingzhu. You could clearly see how my com
 * Fluent in Python and Stata;
 * Skilled in Word, Excel, PowerPoint, Visio.
 
+<br/>
+
 ## Language Skills
 
 * Chinese: Native Language;
@@ -68,6 +70,8 @@ Here is my apartment, Baoli Jiangshang Mingzhu. You could clearly see how my com
 ## My Projects
 
 I am currently working on a project of professional wine reviews with my teammates. This project would be posted here once it is done. Please wait for a moment.
+
+<br/>
 
 ## Useful Resources
 
