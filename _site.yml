@@ -1,0 +1,20 @@
+name: "Personal Website"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Resume"
+      href: resume.html
+    - text: "Plotly"
+      href: plotly.html
+    - text: "Dashboard"
+      href: dashboard.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<cong.zhang@columbia.edu>
+    - icon: fa-github fa-lg
+      href: https://github.com/CongZhang63
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/cong-zhang-columbia
+output:
+  html_document:
+    theme: flatly

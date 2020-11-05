@@ -1,0 +1,85 @@
+---
+title: "Resume of Cong Zhang"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+<br/>
+
+## Personal Information
+
+* Cong Zhang
+* Phone: +86 182 1060 5810
+* Email: cong.zhang@columbia.edu
+* GitHub: https://github.com/CongZhang63
+* LinkedIn: https://www.linkedin.com/in/cong-zhang-columbia
+
+<br/>
+
+## Education Background
+
+#### Columbia University, Mailman School of Public Health, New York, NY
+* Master of Science Candidate, Major in Biostatistics, 2020 – 2022
+* Relevant Courses: Biostatistical Methods, Data Science, Probability, Principles of Epidemiology
+
+#### Peking University, National School of Development, Beijing, China
+* Bachelor of Economics, Major in Economics, 2011 – 2013
+* Excellent Interviewer Award of Institute of Social Science Survey of Peking University
+
+#### Xi'an Jiaotong University, School of Life Science and Technology, Xi'an, China
+* Bachelor of Engineering, Major in Biological Engineering, 2004 – 2008
+* Honorable Admission for National Science Olympiad Winner, with Exemption of National College Entrance Exams
+* Gold Award of the Sixth Business Plan Competition of Xi'an Jiaotong University
+National Science Olympiad
+
+#### National Science Olympiad
+* 1st Prize of China High School Biology Olympiad, 3rd Prize of National Olympiad in Informatics in Province
+* 2nd Prize of China Middle School Physics Olympiad, 3rd Prize of China Middle School Mathematical Olympiad
+* 2nd Prize of China Elementary School Mathematical Olympiad
+
+<br/>
+ 
+## Work Experience
+#### Institute of Social Science Survey, Peking University, Beijing, China, 2013 – 2020 
+##### Senior Data Analyst, Professional Staff at China Family Panel Studies (CFPS), 08/2014 – 08/2020
+
+##### -> Data Analysis & Visualization
+* Analyzed interviewers’ behaviors with descriptive statistics computed from paradata using SQL to improve survey designs;
+* Mocked pre-designed interviews and analyzed test data to rectify questionnaire and system deficiencies before fieldwork;
+* Produced monthly report regarding growth trend and demographic features of data users through data visualization in Excel.
+
+##### -> Data Manipulation & Management
+* Masked restricted data by adding random noises and recoding identification variables to protect respondent confidentiality;
+* Produced and Disseminated public and restricted data along with harmonized Chinese and English metadata across all waves;
+* Taught training classes to more than 900 interviewers and mentored more than 70 data interns from China, USA, Canada, etc.
+
+##### Survey Squad Lead, China Health and Retirement Longitudinal Study (CHARLS), 06/2013 – 12/2013
+* Managed fieldwork scheduling and supervised team members to enforce standard interview procedures for high data quality;
+* Coordinated with project supervisors and local survey coordinators to facilitate interview process and increase response rate;
+* Collected household and biomarker data by conducting computer-assisted personal interviews (CAPI) and physical tests.
+
+<br/>
+
+#### Dihon Pharmaceutical Group Co., Ltd. (Acquired by Bayer Group)	Kunming, China, 2008 – 2010
+##### Product Specialist, Rx Medicine Marketing Department; Regional Manager, Daily Cosmetics Sales Department
+* Accumulated marketing information; Assessed key competitors; Organized exhibitions at symposia for brand advertising;
+* Provided training materials and sales tools; Hosted academic conferences; Oversaw education and promotion programs;
+* Extended regional wholesale and retail networks; Adopted new local pricing tactics; Improved products' shelf displays;
+* Devised promotion strategy; Cleared ¥500,000 inventory; Boosted monthly sales revenue from ¥15,000 to ¥80,000.
+
+<br/>
+
+## Professional Skills
+#### Computer
+* Proficient in SAS Basic, SAS Macro, SQL and R;
+* Fluent in Python and Stata;
+* Skilled in Word, Excel, PowerPoint, Visio.
+
+#### Language
+* Chinese: Native Language;
+* English: Test of English as a Foreign Language (TOEFL) : iBT Test Score 105;
+* Spanish: Diploma of Spanish as a Foreign Language (Diploma de Español como Lengua Extranjera, DELE) : Level B1 of Common European Framework of Reference (CEFR);
+* Portuguese: Elementary Diploma of Portuguese as a Foreign Language (Diploma Elementar de Português Língua Estrangeira, DEPLE): Level B1 of Common European Framework of Reference (CEFR);
+* Italian: Certification of Italian as a Foreign Language (Certificazione di Italiano come Lingua Straniera, CILS): Level B1 of Common European Framework of Reference (CEFR).
