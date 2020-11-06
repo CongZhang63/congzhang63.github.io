@@ -15,7 +15,7 @@ library(plotly)
 library(flexdashboard)
 ```
 
-```{r instacart data}
+```{r instacart data, include=FALSE}
 data("instacart")
 
 instacart %>% 
@@ -24,7 +24,7 @@ instacart %>%
 ```
 
 
-Column {data-width=650}
+Column {data-width=400}
 -----------------------------------------------------------------------
 
 ### Chart A
@@ -45,7 +45,7 @@ instacart %>%
     title = "100% Whole Wheat Bread Order Scatterplot")
 ```
 
-Column {data-width=350}
+Column {data-width=600}
 -----------------------------------------------------------------------
 
 ### Chart B
