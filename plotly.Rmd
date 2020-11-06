@@ -1,0 +1,121 @@
+---
+title: "Problem 2 Plotly"
+output: 
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_float: true
+---
+
+# Loading data
+
+We're gonna look at Instacart data.
+
+```{r setup, message = FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+
+```{r instacart data}
+data("instacart")
+
+instacart %>% 
+	count(aisle) %>% 
+	arrange(desc(n))
+```
+
+
+# Plotly plots
+
+## scatterplot
+
+Screen out the most popular bread.
+
+```{r bread}
+instacart %>%
+  filter(aisle == "bread") %>% 
+  group_by(product_name) %>% 
+  count(product_name) %>% 
+  arrange(desc(n)) 
+```
+
+Make a scatterplot about the most popular bread.
+
+```{r bread scatterplot}
+instacart %>% 
+  filter(
+    aisle == "bread",
+    product_name == "100% Whole Wheat Bread"
+  ) %>% 
+  mutate(text_label = str_c("Order Dow: ", order_dow, "\nDays Since Prior Order: ", days_since_prior_order)) %>% 
+  plot_ly(
+    x = ~order_hour_of_day, y = ~order_number, color = ~order_hour_of_day, text = ~text_label, 
+    type = "scatter", mode = "markers", colors = "viridis") %>%
+  layout(
+    xaxis = list(title = "Order Hour of Day"),
+    yaxis = list(title = "Order Number"),
+    title = "100% Whole Wheat Bread Order Scatterplot")
+```
+
+
+## box plot
+
+Screen out the most popular packaged cheese.
+
+```{r packaged cheese}
+instacart %>%
+  filter(aisle == "packaged cheese") %>% 
+  group_by(product_name) %>% 
+  count(product_name) %>% 
+  arrange(desc(n)) 
+```
+
+Make a box plot about the most popular packaged cheese.
+
+```{r packaged cheese box plot}
+instacart %>% 
+  filter(
+    aisle == "packaged cheese",
+    product_name %in% c("Organic Whole String Cheese", "Grated Parmesan", "Feta Cheese Crumbles")
+  ) %>% 
+  mutate(
+    product_name = as.factor(product_name),
+    product_name = fct_reorder(product_name, order_number)
+  ) %>% 
+  plot_ly(
+    x = ~product_name, y = ~order_number, color = ~product_name, 
+    type = "box", colors = "viridis"
+  ) %>%
+  layout(
+    xaxis = list(title = "Product Name"),
+    yaxis = list(title = "Order Number"),
+    title = "Order Number distribution of 3 most popular packaged cheese"
+  )
+```
+
+
+## bar plot
+
+Make a bar plot about the aisles with more than 10,000 items ordered.
+
+```{r bar plot}
+instacart %>% 
+	count(aisle) %>% 
+	filter(n > 10000) %>% 
+	mutate(
+		aisle = factor(aisle),
+		aisle = fct_reorder(aisle, n)
+	) %>% 
+  plot_ly(
+    x = ~aisle, y = ~n, color = ~aisle,
+    type = "bar", colors = "viridis"
+  ) %>% 
+  layout(
+    xaxis = list(title = FALSE),
+    yaxis = list(title = "Count"),
+    title = "Aisles with more than 10,000 items ordered"
+  )  
+```
+
