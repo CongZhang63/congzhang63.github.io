@@ -5,12 +5,10 @@ navbar:
   right:
     - text: "Resume"
       href: resume.html
-    - text: "Plotly"
-      href: plotly.html
-    - text: "Dashboard"
-      href: dashboard.html
+    - text: "Projects"
+      href: Projects.html
     - icon: fa-envelope fa-lg
-      href: mailto:<cong.zhang@columbia.edu>
+      href: mailto:<Cong.Zhang.Columbia@Gmail.com>
     - icon: fa-github fa-lg
       href: https://github.com/CongZhang63
     - icon: fa-linkedin fa-lg

@@ -13,12 +13,22 @@
 
 <title>Resume of Cong Zhang</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -28,12 +38,16 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -46,32 +60,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 
 
@@ -81,10 +71,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -101,40 +87,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -162,7 +124,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -174,7 +136,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -185,10 +147,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -200,7 +175,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -326,7 +300,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -340,7 +314,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -356,13 +330,10 @@ div.tocify {
   <a href="resume.html">Resume</a>
 </li>
 <li>
-  <a href="plotly.html">Plotly</a>
+  <a href="Projects.html">Projects</a>
 </li>
 <li>
-  <a href="dashboard.html">Dashboard</a>
-</li>
-<li>
-  <a href="mailto:&lt;cong.zhang@columbia.edu&gt;">
+  <a href="mailto:&lt;Cong.Zhang.Columbia@Gmail.com&gt;">
     <span class="fa fa-envelope fa-lg"></span>
      
   </a>
@@ -384,7 +355,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -398,8 +369,8 @@ div.tocify {
 <h2>Personal Information</h2>
 <ul>
 <li>Cong Zhang</li>
-<li>Phone: +86 182 1060 5810</li>
-<li>Email: <a href="mailto:cong.zhang@columbia.edu" class="email">cong.zhang@columbia.edu</a></li>
+<li>Phone: (917) 345-3781</li>
+<li>Email: <a href="mailto:Cong.Zhang.Columbia@Gmail.com" class="email">Cong.Zhang.Columbia@Gmail.com</a></li>
 <li>GitHub: <a href="https://github.com/CongZhang63" class="uri">https://github.com/CongZhang63</a></li>
 <li>LinkedIn: <a href="https://www.linkedin.com/in/cong-zhang-columbia" class="uri">https://www.linkedin.com/in/cong-zhang-columbia</a></li>
 </ul>
@@ -408,25 +379,41 @@ div.tocify {
 <div id="education-background" class="section level2">
 <h2>Education Background</h2>
 <div id="columbia-university-mailman-school-of-public-health-new-york-ny" class="section level4">
-<h4>Columbia University, Mailman School of Public Health, New York, NY</h4>
+<h4>Columbia University, Mailman School of Public Health                           New York, NY</h4>
 <ul>
-<li>Master of Science Candidate, Major in Biostatistics, 2020 – 2022</li>
-<li>Relevant Courses: Biostatistical Methods, Data Science, Probability, Principles of Epidemiology</li>
+<li>Master of Science, Major in Biostatistics, Public Health Data Science Track, GPA 3.97           Aug 2020 – May 2022</li>
+<li>Data Science Institute Scholar</li>
 </ul>
 </div>
-<div id="peking-university-national-school-of-development-beijing-china" class="section level4">
-<h4>Peking University, National School of Development, Beijing, China</h4>
+<div id="peking-university-national-school-of-development-ivy-league-in-china-beijing-china" class="section level4">
+<h4>Peking University, National School of Development (Ivy League in China)             Beijing, China</h4>
 <ul>
-<li>Bachelor of Economics, Major in Economics, 2011 – 2013</li>
+<li>Bachelor of Economics, Major in Economics                                         Sep 2011 – Jul 2013</li>
 <li>Excellent Interviewer Award of Institute of Social Science Survey of Peking University</li>
 </ul>
 </div>
-<div id="xian-jiaotong-university-school-of-life-science-and-technology-xian-china" class="section level4">
-<h4>Xi’an Jiaotong University, School of Life Science and Technology, Xi’an, China</h4>
+<div id="xian-jiaotong-university-school-of-life-science-and-technology-ivy-league-in-china-xian-china" class="section level4">
+<h4>Xi’an Jiaotong University, School of Life Science and Technology (Ivy League in China)   Xi’an, China</h4>
 <ul>
-<li>Bachelor of Engineering, Major in Biological Engineering, 2004 – 2008</li>
-<li>Honorable Admission for National Science Olympiad Winner, with Exemption of National College Entrance Exams</li>
-<li>Gold Award of the Sixth Business Plan Competition of Xi’an Jiaotong University National Science Olympiad</li>
+<li>Bachelor of Engineering, Major in Bioengineering                                     Sep 2004 – Jul 2008</li>
+<li>Gold Award of the Sixth Business Plan Competition of Xi’an Jiaotong University</li>
+<li>Admitted with Exemption of National College Entrance Examination for 1st Prize Winner of Science Olympiad (~ 0.05% qualified)</li>
+</ul>
+<p><br/></p>
+</div>
+</div>
+<div id="skills-awards" class="section level2">
+<h2>Skills &amp; Awards</h2>
+<div id="programming" class="section level4">
+<h4>Programming</h4>
+<ul>
+<li>Python (NumPy, Pandas, Scikit-Learn, TensorFlow) | SQL | R (Markdown) | SAS (Macros) | Shiny | GIS | GitHub</li>
+</ul>
+</div>
+<div id="statistics" class="section level4">
+<h4>Statistics</h4>
+<ul>
+<li>Machine Learning | Spatial Analysis | Natural Language Processing | Longitudinal Data Analysis | Survival Analysis</li>
 </ul>
 </div>
 <div id="national-science-olympiad" class="section level4">
@@ -436,68 +423,9 @@ div.tocify {
 <li>2nd Prize of China Middle School Physics Olympiad, 3rd Prize of China Middle School Mathematical Olympiad</li>
 <li>2nd Prize of China Elementary School Mathematical Olympiad</li>
 </ul>
-<p><br/></p>
 </div>
-</div>
-<div id="work-experience" class="section level2">
-<h2>Work Experience</h2>
-<div id="institute-of-social-science-survey-peking-university-beijing-china-2013-2020" class="section level4">
-<h4>Institute of Social Science Survey, Peking University, Beijing, China, 2013 – 2020</h4>
-<div id="senior-data-analyst-professional-staff-at-china-family-panel-studies-cfps-082014-082020" class="section level5">
-<h5>Senior Data Analyst, Professional Staff at China Family Panel Studies (CFPS), 08/2014 – 08/2020</h5>
-</div>
-<div id="data-analysis-visualization" class="section level5">
-<h5>-&gt; Data Analysis &amp; Visualization</h5>
-<ul>
-<li>Analyzed interviewers’ behaviors with descriptive statistics computed from paradata using SQL to improve survey designs;</li>
-<li>Mocked pre-designed interviews and analyzed test data to rectify questionnaire and system deficiencies before fieldwork;</li>
-<li>Produced monthly report regarding growth trend and demographic features of data users through data visualization in Excel.</li>
-</ul>
-</div>
-<div id="data-manipulation-management" class="section level5">
-<h5>-&gt; Data Manipulation &amp; Management</h5>
-<ul>
-<li>Masked restricted data by adding random noises and recoding identification variables to protect respondent confidentiality;</li>
-<li>Produced and Disseminated public and restricted data along with harmonized Chinese and English metadata across all waves;</li>
-<li>Taught training classes to more than 900 interviewers and mentored more than 70 data interns from China, USA, Canada, etc.</li>
-</ul>
-</div>
-<div id="survey-squad-lead-china-health-and-retirement-longitudinal-study-charls-062013-122013" class="section level5">
-<h5>Survey Squad Lead, China Health and Retirement Longitudinal Study (CHARLS), 06/2013 – 12/2013</h5>
-<ul>
-<li>Managed fieldwork scheduling and supervised team members to enforce standard interview procedures for high data quality;</li>
-<li>Coordinated with project supervisors and local survey coordinators to facilitate interview process and increase response rate;</li>
-<li>Collected household and biomarker data by conducting computer-assisted personal interviews (CAPI) and physical tests.</li>
-</ul>
-<p><br/></p>
-</div>
-</div>
-<div id="dihon-pharmaceutical-group-co.-ltd.-acquired-by-bayer-group-kunming-china-2008-2010" class="section level4">
-<h4>Dihon Pharmaceutical Group Co., Ltd. (Acquired by Bayer Group) Kunming, China, 2008 – 2010</h4>
-<div id="product-specialist-rx-medicine-marketing-department-regional-manager-daily-cosmetics-sales-department" class="section level5">
-<h5>Product Specialist, Rx Medicine Marketing Department; Regional Manager, Daily Cosmetics Sales Department</h5>
-<ul>
-<li>Accumulated marketing information; Assessed key competitors; Organized exhibitions at symposia for brand advertising;</li>
-<li>Provided training materials and sales tools; Hosted academic conferences; Oversaw education and promotion programs;</li>
-<li>Extended regional wholesale and retail networks; Adopted new local pricing tactics; Improved products’ shelf displays;</li>
-<li>Devised promotion strategy; Cleared ¥500,000 inventory; Boosted monthly sales revenue from ¥15,000 to ¥80,000.</li>
-</ul>
-<p><br/></p>
-</div>
-</div>
-</div>
-<div id="professional-skills" class="section level2">
-<h2>Professional Skills</h2>
-<div id="computer" class="section level4">
-<h4>Computer</h4>
-<ul>
-<li>Proficient in SAS Basic, SAS Macro, SQL and R;</li>
-<li>Fluent in Python and Stata;</li>
-<li>Skilled in Word, Excel, PowerPoint, Visio.</li>
-</ul>
-</div>
-<div id="language" class="section level4">
-<h4>Language</h4>
+<div id="languages" class="section level4">
+<h4>Languages</h4>
 <ul>
 <li>Chinese: Native Language;</li>
 <li>English: Test of English as a Foreign Language (TOEFL) : iBT Test Score 105;</li>
@@ -505,6 +433,90 @@ div.tocify {
 <li>Portuguese: Elementary Diploma of Portuguese as a Foreign Language (Diploma Elementar de Português Língua Estrangeira, DEPLE): Level B1 of Common European Framework of Reference (CEFR);</li>
 <li>Italian: Certification of Italian as a Foreign Language (Certificazione di Italiano come Lingua Straniera, CILS): Level B1 of Common European Framework of Reference (CEFR).</li>
 </ul>
+<p><br/></p>
+</div>
+</div>
+<div id="professional-experience" class="section level2">
+<h2>Professional Experience</h2>
+<div id="columbia-university-new-york-ny-feb-2021-present" class="section level4">
+<h4>Columbia University                               New York, NY       Feb 2021 – Present</h4>
+<div id="data-science-institute-scholar-biostatistician-center-for-precision-medicine-and-genomics-feb-2021-present" class="section level5">
+<h5>Data Science Institute Scholar (Biostatistician), Center for Precision Medicine and Genomics     Feb 2021 – Present</h5>
+<ul>
+<li>Conducted exploratory data analysis of ~6.7M gene data via Python &amp; R and created training and test data for statistical modeling</li>
+<li>Built GLM (Logistic Regression) and Machine Learning Models (Ridge, LASSO, Elastic Net, Random Forests) in Python &amp; R</li>
+<li>Performed Cross-Validation to select optimal model and identified key features for predicting true gene variants of kidney disease</li>
+<li>Wrote project report and presented to faculty and students of Columbia and clinical researchers of NewYork-Presbyterian Hospital</li>
+</ul>
+</div>
+<div id="data-science-institute-scholar-data-analyst-department-of-epidemiology-nov-2021-present" class="section level5">
+<h5>Data Science Institute Scholar (Data Analyst), Department of Epidemiology               Nov 2021 – Present</h5>
+<ul>
+<li>Created COVID-19 patient database and conducted exploratory data analysis in SQL &amp; R using Electronic Health Records Data</li>
+<li>Plotted choropleth maps of socioeconomic and health factors using R &amp; QGIS to evaluate geospatial clustering in New York City</li>
+<li>Calculated Moran’s I values and created Moran scatterplots and LISA significance maps in GeoDa to assess spatial autocorrelation</li>
+<li>Examined statistical associations between chronic exposure to air pollution and severity of COVID-19 outcomes and disparities</li>
+</ul>
+</div>
+<div id="data-science-institute-scholar-statistician-center-for-international-earth-science-information-network-mar-2022-present" class="section level5">
+<h5>Data Science Institute Scholar (Statistician), Center for International Earth Science Information Network   Mar 2022 – Present</h5>
+<ul>
+<li>Visualized geographic clusterings of natural disasters and fundings in Python &amp; R using hazards data and Insurance Claims Data</li>
+<li>Built spatial error and spatial lag models in GeoDa to assess spatial dependence in climatic hazards and sociodemographic factors</li>
+<li>Constructed Generalized Linear Models (Poisson Regression) in Python &amp; R to assess distribution of disaster risks and benefits</li>
+</ul>
+</div>
+<div id="teaching-assistant-of-introduction-to-biostatistical-methods-department-of-biostatistics-aug-2021-dec-2021" class="section level5">
+<h5>Teaching Assistant of Introduction to Biostatistical Methods, Department of Biostatistics       Aug 2021 – Dec 2021</h5>
+<ul>
+<li>Held R lab session and weekly office hours for ~60 graduate students to introduce R programming and clarify learning materials</li>
+<li>Answered questions about hypothesis testing and regression analysis via email and graded homework assignments and final exam</li>
+</ul>
+<p><br/></p>
+</div>
+</div>
+<div id="institute-of-social-science-survey-peking-university-beijing-china-jun-2013-aug-2020" class="section level4">
+<h4>Institute of Social Science Survey, Peking University       Beijing, China       Jun 2013 – Aug 2020</h4>
+<div id="senior-data-analyst-china-family-panel-studies-cfps-aug-2014-aug-2020" class="section level5">
+<h5>Senior Data Analyst, China Family Panel Studies (CFPS)                             Aug 2014 – Aug 2020</h5>
+<ul>
+<li>Wrote data wrangling scripts using SQL &amp; SAS Macros to detect and correct errors in ~152K survey data for quality optimization</li>
+<li>Created address database of ~700K communities via SAS Macros and implemented de-identification algorithms for data privacy</li>
+<li>Harmonized demographics data of ~150K respondents for fieldwork and managed metadata for data curation using SQL &amp; SAS</li>
+<li>Visualized survey data and customer data via SQL &amp; SAS for project reports and maintained project website via HTML &amp; CSS</li>
+<li>Conducted survey questionnaire training for 900+ interviewers and mentored 70+ interns from China, United States and Canada</li>
+<li>Performed descriptive statistical analysis of paradata to improve survey designs and provided data analysis consultation for clients</li>
+</ul>
+</div>
+<div id="data-collection-intern-china-health-and-retirement-longitudinal-study-charls-jun-2013-aug-2014" class="section level5">
+<h5>Data Collection Intern, China Health and Retirement Longitudinal Study (CHARLS)           Jun 2013 – Aug 2014</h5>
+<ul>
+<li>Led team of 6 survey interviewers and coordinated with project supervisors and local liaisons to facilitate survey implementation</li>
+<li>Collected socio-economic and biomarker data by conducting personal interviews after locating and verifying sampled households</li>
+<li>Supervised fieldwork to optimize data quality and achieved ~93% response rate by enhancing communication with respondents</li>
+<li>Received Excellent Interviewer Award for CHARLS and return offer from Institute of Social Science Survey of Peking University</li>
+</ul>
+<p><br/></p>
+</div>
+</div>
+<div id="dihon-pharmaceutical-group-co.-ltd.-kunming-china-sep-2008-nov-2010" class="section level4">
+<h4>Dihon Pharmaceutical Group Co., Ltd.                 Kunming, China       Sep 2008 – Nov 2010</h4>
+<div id="regional-manager-daily-cosmetics-sales-department-sep-2008-jan-2009-aug-2010-nov-2010" class="section level5">
+<h5>Regional Manager, Daily Cosmetics Sales Department               Sep 2008 – Jan 2009 &amp; Aug 2010 – Nov 2010</h5>
+<ul>
+<li>Extended ~25 new wholesale and retail partners by analyzing self-collected market data and adopting new local pricing tactics</li>
+<li>Revitalized brand image by building ~10 flagship stores with retailers and improving products’ shelf displays of ~400 retail stores</li>
+<li>Cleared ¥500,000 stagnant inventory via diverse promotion activities and boosted ~430% growth in local monthly sales revenue</li>
+</ul>
+</div>
+<div id="product-specialist-rx-medicine-marketing-department-jan-2009-jan-2010" class="section level5">
+<h5>Product Specialist, Rx Medicine Marketing Department                             Jan 2009 – Jan 2010</h5>
+<ul>
+<li>Assessed key competitors after collecting marketing information and arranged products exhibitions at 3 symposia for branding</li>
+<li>Organized ~10 educational conferences and provided sales team with marketing tools to improve communication with customers</li>
+<li>Evaluated regional marketing budget and business performance by analyzing relevant expense reimbursement and sales growth</li>
+</ul>
+</div>
 </div>
 </div>
 
@@ -519,7 +531,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -537,7 +549,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -546,6 +558,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

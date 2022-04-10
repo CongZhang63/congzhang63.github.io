@@ -1,5 +1,5 @@
 ---
-title: "Cong Zhang's Awesome Website"
+title: "Welcome to Cong Zhang's Website"
 output: 
   html_document:
     code_folding: hide
@@ -9,35 +9,29 @@ output:
 
 <br/>
 
-# Welcome to Cong Zhang's Website
+# Ciao a tutti!
 
-Hi, it is great to meet you! <br/>
-I am currently a Master of Science candidate in Biostatistics at Columbia University Mailman School of Public Health. <br/>
-I also used to be a Professional Staff at the Institute of Social Science Survey (a.k.a. Data Center for Management Science), Peking University.
+Hi, it is great to meet you!
 
-<img src="images/2520142.jpg" style="width:80%">
+My name’s Cong Zhang. I'm a Master of Science candidate in Biostatistics (Public Health Data Science Track) at Columbia University Mailman School of Public Health.
 
+Before coming to Columbia, I studied Bioengineering and Economics as my undergraduate majors at Xi’an Jiaotong University and Peking University respectively.
 
-<br/>
+After graduated from Xi’an Jiaotong University, I worked as a Regional Manager and a Product Specialist at Dihon Pharmaceutical Group Co., Ltd. for about 2 years.  After graduated from Peking University, I worked as a Data Collection Intern and then a Senior Data Analyst at the Institute of Social Science Survey, Peking University for about 7 years, where we mainly focused on survey data of health and socioeconomics.
 
+Right now, I’m working on my practicum project, and using machine learning skills to analyze the genetic data which could be associated with kidney disease.
 
-# My Hometown
+I can speak Chinese, English, Spanish, and a little Portuguese and Italian. I have 2 years’ experience in R & Python, as well as 5 years’ experience in SAS and SQL. I’m also familiar with QGIS and GoeDa for spatial analysis.
 
-#### Chongqing, the 3-D City of China!
-
-I am from Chongqing, China. Chongqing is a huge municipality located in the Southwest of China, and the core city area sits at the confluence of the Long River and the Jialing River. Due to its unique terrain and weather, Chongqing is also well known among Chinese people as the "Mountain City" and the "Fog Municipality". Enjoy the view!
-
-<img src="http://5b0988e595225.cdn.sohucs.com/images/20190806/d2dcf52affed459c886f5c11a90fd8a2.gif" style="width:80%">
-
-<img src="images/1569024327790.gif" style="width:80%">
+<img src="images/Working at Dihon.jpg" style="width:95%">
 
 
 <br/>
 
 
-Here is my apartment, Baoli Jiangshang Mingzhu. You could clearly see how my community crawls all the way up the hills. This is very typical in Chongqing!
+# Academic & Work Experiences
 
-<img src="images/IMG_20200731_093103.jpg" style="width:80%">
+If you are interested in my academic and work experience, please refer to my [Resume](resume.html) and [LinkedIn](https://www.linkedin.com/in/cong-zhang-columbia) for detailed information.
 
 
 <br/>
@@ -45,13 +39,14 @@ Here is my apartment, Baoli Jiangshang Mingzhu. You could clearly see how my com
 
 # Professional Skills {.tabset}
 
-## Computer Skills
+## Data Analysis
 
-* Proficient in SAS Basic, SAS Macro, SQL and R;
-* Fluent in Python and Stata;
-* Skilled in Word, Excel, PowerPoint, Visio.
+* Programming: Python (NumPy, Pandas, Scikit-Learn, TensorFlow) | SQL | R (Markdown) | SAS (Macros) | Shiny | GIS | GitHub
+* Statistics: Machine Learning | Spatial Analysis | Natural Language Processing | Longitudinal Data Analysis | Survival Analysis
+
 
 <br/>
+
 
 ## Language Skills
 
@@ -65,29 +60,56 @@ Here is my apartment, Baoli Jiangshang Mingzhu. You could clearly see how my com
 <br/>
 
 
-# Data Science {.tabset}
+# Data Science Projects
 
-## My Projects
+-> Professional Wine Reviews
 
-I am currently working on a project of professional wine reviews with my teammates. This project would be posted here once it is done. Please wait for a moment.
+I have completed a project regarding professional wine reviews with my friends. Please visit the project website for detailed information:
+
+https://congzhang63.github.io/p8105_final_project
 
 <br/>
 
-## Useful Resources
+-> Predicting Crime Rate
 
+Together with my friends, I also built machine learning models (lasso regression, ridge regression, elastic net, random forests, etc.) to predict the crime rate within Boston area. Please refer to the project github for detailed information:
+
+https://github.com/ruiyangli1/p8106_final_project
+
+
+<br/>
+
+
+# Useful Resources {.tabset}
+
+## Data Science
 Here are some useful resources for data science:
 
-* [Google](https://www.google.com)
-* [P8105](https://p8105.com)
-* [R for Data Science](https://r4ds.had.co.nz/index.html)
-* [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/)
-* [Introduction to R for Public Health Researchers](http://aejaffe.com/summerR_2016/)
+* [UCB Data100: Principles and Techniques of Data Science](https://ds100.org/fa21)
+* [UCB CS186: Introduction to Database System](https://cs186berkeley.net/sp21)
+* [MIT web.lab: A Web Programming Class and Competition](https://weblab.mit.edu/)
 
 
 <br/>
 
 
-# Academic & Work Experiences
+## R
+Here are some useful resources for R:
 
-If you are interested in my academic and work experience, please refer to my [Resume](resume.html) for detailed information.
+* [Columbia P8105: Data Science I (R Programming)](https://p8105.com)
+* [Johns Hopkins: Introduction to R for Public Health Researchers](http://aejaffe.com/summerR_2016/)
+* [R for Data Science](https://r4ds.had.co.nz/index.html)
+* [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/)
+
+
+<br/>
+
+
+# My Hometown
+
+#### Chongqing, the 3-D City of China!
+
+I'm from Chongqing, China. Chongqing is a huge municipality located in the Southwest of China, and the core city area sits at the confluence of the Long River and the Jialing River. Due to its unique terrain and weather, Chongqing is also well known among Chinese people as the "Mountain City" and the "Fog Municipality". Enjoy the view!
+
+<img src="images/Chongqing.gif" style="width:95%">
 
