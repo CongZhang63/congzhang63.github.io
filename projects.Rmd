@@ -1,0 +1,25 @@
+---
+title: "Data Science Projects"
+output: 
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_float: true
+---
+
+<br/>
+
+# Professional Wine Reviews
+
+I have completed a project regarding professional wine reviews with my friends. Please visit the project website for detailed information:
+
+https://congzhang63.github.io/p8105_final_project
+
+<br/>
+
+# Predicting Crime Rate
+
+Together with my friends, I also built machine learning models (lasso regression, ridge regression, elastic net, random forests, etc.) to predict the crime rate within Boston area. Please refer to the project github for detailed information:
+
+https://github.com/ruiyangli1/p8106_final_project
+
