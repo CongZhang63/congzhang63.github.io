@@ -20,16 +20,16 @@ output:
 
 ## Education Background
 
-#### Columbia University, Mailman School of Public Health &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &ensp; &nbsp; New York, NY
-* Master of Science, Major in Biostatistics, Public Health Data Science Track, GPA 3.97	&emsp; &emsp; &emsp; &emsp; &emsp; Aug 2020 – May 2022
+#### Columbia University, Mailman School of Public Health <span style="display:inline-block; width: 360px;"></span> New York, NY
+* Master of Science, Major in Biostatistics, Public Health Data Science Track, GPA 3.97	<span style="display:inline-block; width: 160px;"></span> Aug 2020 – May 2022
 * Data Science Institute Scholar
 
-#### Peking University, National School of Development (Ivy League in China) &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Beijing, China
-* Bachelor of Economics, Major in Economics	&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Sep 2011 – Jul 2013
+#### Peking University, National School of Development (Ivy League in China) <span style="display:inline-block; width: 220px;"></span> Beijing, China
+* Bachelor of Economics, Major in Economics	<span style="display:inline-block; width: 437px;"></span> Sep 2011 – Jul 2013
 * Excellent Interviewer Award of Institute of Social Science Survey of Peking University
 
-#### Xi'an Jiaotong University, School of Life Science and Technology (Ivy League in China) &emsp; Xi'an, China
-* Bachelor of Engineering, Major in Bioengineering &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Sep 2004 – Jul 2008
+#### Xi'an Jiaotong University, School of Life Science and Technology (Ivy League in China) <span style="display:inline-block; width: 137px;"></span> Xi'an, China
+* Bachelor of Engineering, Major in Bioengineering <span style="display:inline-block; width: 400px;"></span> Sep 2004 – Jul 2008
 * Gold Award of the Sixth Business Plan Competition of Xi'an Jiaotong University
 * Admitted with Exemption of National College Entrance Examination for 1st Prize Winner of Science Olympiad (~ 0.05% qualified)
 
@@ -59,34 +59,34 @@ output:
  
 ## Professional Experience
 
-#### Columbia University &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; New York, NY &emsp; &emsp; &emsp; Feb 2021 – Present 
+#### Columbia University <span style="display:inline-block; width: 330px;"></span> New York, NY <span style="display:inline-block; width: 130px;"></span> Feb 2021 – Present 
 
-##### Data Science Institute Scholar (Biostatistician), Center for Precision Medicine and Genomics &ensp; &nbsp; Feb 2021 – Present
+##### Data Science Institute Scholar (Biostatistician), Center for Precision Medicine and Genomics <span style="display:inline-block; width: 115px;"></span> Feb 2021 – Present
 * Conducted exploratory data analysis of ~6.7M gene data via Python & R and created training and test data for statistical modeling
 * Built GLM (Logistic Regression) and Machine Learning Models (Ridge, LASSO, Elastic Net, Random Forests) in Python & R
 * Performed Cross-Validation to select optimal model and identified key features for predicting true gene variants of kidney disease
 * Wrote project report and presented to faculty and students of Columbia and clinical researchers of NewYork-Presbyterian Hospital
 
-##### Data Science Institute Scholar (Data Analyst), Department of Epidemiology &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Nov 2021 – Present
+##### Data Science Institute Scholar (Data Analyst), Department of Epidemiology <span style="display:inline-block; width: 230px;"></span> Nov 2021 – Present
 * Created COVID-19 patient database and conducted exploratory data analysis in SQL & R using Electronic Health Records Data
 * Plotted choropleth maps of socioeconomic and health factors using R & QGIS to evaluate geospatial clustering in New York City
 * Calculated Moran's I values and created Moran scatterplots and LISA significance maps in GeoDa to assess spatial autocorrelation
 * Examined statistical associations between chronic exposure to air pollution and severity of COVID-19 outcomes and disparities
 
-##### Data Science Institute Scholar (Statistician), Center for International Earth Science Information Network &nbsp; Mar 2022 – Present
+##### Data Science Institute Scholar (Statistician), Center for International Earth Science Information Network <span style="display:inline-block; width: 25px;"></span> Mar 2022 – Present
 * Visualized geographic clusterings of natural disasters and fundings in Python & R using hazards data and Insurance Claims Data
 * Built spatial error and spatial lag models in GeoDa to assess spatial dependence in climatic hazards and sociodemographic factors
 * Constructed Generalized Linear Models (Poisson Regression) in Python & R to assess distribution of disaster risks and benefits
 
-##### Teaching Assistant of Introduction to Biostatistical Methods, Department of Biostatistics &emsp; &ensp; &nbsp; Aug 2021 – Dec 2021
+##### Teaching Assistant of Introduction to Biostatistical Methods, Department of Biostatistics <span style="display:inline-block; width: 125px;"></span> Aug 2021 – Dec 2021
 * Held R lab session and weekly office hours for ~60 graduate students to introduce R programming and clarify learning materials
 * Answered questions about hypothesis testing and regression analysis via email and graded homework assignments and final exam
 
 <br/>
 
-#### Institute of Social Science Survey, Peking University &emsp; &emsp; &emsp; Beijing, China &emsp; &emsp; &emsp; Jun 2013 – Aug 2020 
+#### Institute of Social Science Survey, Peking University <span style="display:inline-block; width: 87px;"></span> Beijing, China <span style="display:inline-block; width: 120px;"></span> Jun 2013 – Aug 2020 
 
-##### Senior Data Analyst, China Family Panel Studies (CFPS) &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Aug 2014 – Aug 2020
+##### Senior Data Analyst, China Family Panel Studies (CFPS) <span style="display:inline-block; width: 355px;"></span> Aug 2014 – Aug 2020
 * Wrote data wrangling scripts using SQL & SAS Macros to detect and correct errors in ~152K survey data for quality optimization
 * Created address database of ~700K communities via SAS Macros and implemented de-identification algorithms for data privacy
 * Harmonized demographics data of ~150K respondents for fieldwork and managed metadata for data curation using SQL & SAS
@@ -94,7 +94,7 @@ output:
 * Conducted survey questionnaire training for 900+ interviewers and mentored 70+ interns from China, United States and Canada
 * Performed descriptive statistical analysis of paradata to improve survey designs and provided data analysis consultation for clients
 
-##### Data Collection Intern, China Health and Retirement Longitudinal Study (CHARLS) &emsp; &emsp; &emsp; &emsp; &nbsp; Jun 2013 – Aug 2014
+##### Data Collection Intern, China Health and Retirement Longitudinal Study (CHARLS) <span style="display:inline-block; width: 170px;"></span> Jun 2013 – Aug 2014
 * Led team of 6 survey interviewers and coordinated with project supervisors and local liaisons to facilitate survey implementation
 * Collected socio-economic and biomarker data by conducting personal interviews after locating and verifying sampled households
 * Supervised fieldwork to optimize data quality and achieved ~93% response rate by enhancing communication with respondents
@@ -102,14 +102,14 @@ output:
 
 <br/>
 
-#### Dihon Pharmaceutical Group Co., Ltd.	&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Kunming, China &emsp; &emsp; &nbsp; Sep 2008 – Nov 2010
+#### Dihon Pharmaceutical Group Co., Ltd.	<span style="display:inline-block; width: 190px;"></span> Kunming, China <span style="display:inline-block; width: 105px;"></span> Sep 2008 – Nov 2010
 
-##### Regional Manager, Daily Cosmetics Sales Department &emsp; &emsp; &emsp;	&emsp; &emsp; &emsp; &ensp; Sep 2008 – Jan 2009 & Aug 2010 – Nov 2010
+##### Regional Manager, Daily Cosmetics Sales Department <span style="display:inline-block; width: 202px;"></span> Sep 2008 – Jan 2009 & Aug 2010 – Nov 2010
 * Extended ~25 new wholesale and retail partners by analyzing self-collected market data and adopting new local pricing tactics
 * Revitalized brand image by building ~10 flagship stores with retailers and improving products' shelf displays of ~400 retail stores
 * Cleared ¥500,000 stagnant inventory via diverse promotion activities and boosted ~430% growth in local monthly sales revenue
 
-##### Product Specialist, Rx Medicine Marketing Department &emsp; &emsp; &emsp;	&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Jan 2009 – Jan 2010
+##### Product Specialist, Rx Medicine Marketing Department <span style="display:inline-block; width: 362px;"></span> Jan 2009 – Jan 2010
 * Assessed key competitors after collecting marketing information and arranged products exhibitions at 3 symposia for branding
 * Organized ~10 educational conferences and provided sales team with marketing tools to improve communication with customers
 * Evaluated regional marketing budget and business performance by analyzing relevant expense reimbursement and sales growth

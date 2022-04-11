@@ -6,7 +6,7 @@ navbar:
     - text: "Resume"
       href: resume.html
     - text: "Projects"
-      href: Projects.html
+      href: projects.html
     - icon: fa-envelope fa-lg
       href: mailto:<Cong.Zhang.Columbia@Gmail.com>
     - icon: fa-github fa-lg
@@ -16,3 +16,5 @@ navbar:
 output:
   html_document:
     theme: flatly
+    highlight: tango
+    css: style.css

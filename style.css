@@ -1,0 +1,9 @@
+.main-container {
+  max-width: 1300px !important;
+}
+
+img {
+  display: block;
+  margin: 0 auto; 
+  width: 800px;
+}
