@@ -13,17 +13,18 @@ output:
 
 Hi, it is great to meet you!
 
-My name’s Cong Zhang. I'm a Master of Science candidate in Biostatistics (Public Health Data Science Track) at Columbia University Mailman School of Public Health.
+My name is Cong Zhang.  I'm a Master of Science graduate in Biostatistics (Public Health Data Science Track) at Columbia University Mailman School of Public Health.
 
 Before coming to Columbia, I studied Bioengineering and Economics as my undergraduate majors at Xi’an Jiaotong University and Peking University respectively.
 
-After graduating from Xi’an Jiaotong University, I worked as a Regional Manager and a Product Specialist at Dihon Pharmaceutical Group Co., Ltd. for about 2 years.  After graduating from Peking University, I worked as a Data Collection Intern and then a Senior Data Analyst at the Institute of Social Science Survey, Peking University for about 7 years, where we mainly focused on survey data of health and socioeconomics.
+After graduating from Xi’an Jiaotong University, I worked as a Regional Manager and then a Product Specialist at Dihon Pharmaceutical Group Co., Ltd. for about 2 years.  After graduating from Peking University, I worked as a Data Collection Intern and then a Senior Data Analyst at the Institute of Social Science Survey, Peking University for about 7 years, where we mainly focused on survey data of health and socioeconomics.
 
-Right now, I’m working on my practicum project, and using machine learning skills to analyze the genetic data which could be associated with kidney disease.
+Right now, I’m working on the Data Science Institute Scholar Projects, and using statistical skills to analyze the associations between chronic exposure to air pollution and severity of COVID-19 outcomes and disparities in New York City.
 
-I can speak Chinese, English, Spanish, and a little Portuguese and Italian. I have 2 years’ experience in R & Python, as well as 5 years’ experience in SAS and SQL. I’m also familiar with QGIS and GoeDa for spatial analysis.
+I can speak Chinese, English, Spanish, and a little Portuguese and Italian.  I have 2 years’ experience in R & Python, as well as 8 years’ experience in SAS and SQL.  I’m also proficient in QGIS and GoeDa for spatial analysis.
 
-![](images/Working at Dihon.jpg)
+<img src="images/Columbia MS.jpg" style="width:50%" />
+
 
 <br/>
 
@@ -82,11 +83,25 @@ https://github.com/ruiyangli1/p8106_final_project
 # Useful Resources {.tabset}
 
 ## Data Science
-Here are some useful resources for data science:
+Here are some useful resources for Data Science:
 
-* [UCB Data100: Principles and Techniques of Data Science](https://ds100.org/fa21)
+* [UCB Data8: Foundations of Data Science](http://data8.org/)
+* [UCB Data100: Principles and Techniques of Data Science](https://ds100.org)
+* [UCB Data102: Data Inference and Decisions](https://data102.org)
+* [UCB Data140: Probability for Data Science](http://prob140.org)
 * [UCB CS186: Introduction to Database System](https://cs186berkeley.net/sp21)
-* [MIT web.lab: A Web Programming Class and Competition](https://weblab.mit.edu/)
+* [MIT web.lab: A Web Programming Class and Competition](https://weblab.mit.edu)
+* [Stanford: Databases](https://online.stanford.edu/courses/soe-ydatabases-databases)
+* [Mastering Spark with R](https://therinspark.com/)
+
+
+<br/>
+
+
+## Python
+Here are some useful resources for Python:
+
+* [W3Schools Python Tutorial](https://www.w3schools.com/python/)
 
 
 <br/>
@@ -96,9 +111,37 @@ Here are some useful resources for data science:
 Here are some useful resources for R:
 
 * [Columbia P8105: Data Science I (R Programming)](https://p8105.com)
+* [Columbia GR5072: Modern Data Structures](https://github.com/marco-morales/QMSS-GR5072_Spring2022)
 * [Johns Hopkins: Introduction to R for Public Health Researchers](http://aejaffe.com/summerR_2016/)
-* [R for Data Science](https://r4ds.had.co.nz/index.html)
+* [CMU 36-350: Statistical Computing](https://www.stat.cmu.edu/~cshalizi/statcomp/14/)
+* [Getting Used to R, RStudio, and R Markdown](https://ismayc.github.io/rbasics-book/)
 * [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/)
+* [R for Data Science](https://r4ds.had.co.nz/)
+* [Advanced R](https://adv-r.hadley.nz/)
+* [R Packages](https://r-pkgs.org/)
+* [Efficient R Programming](https://csgillespie.github.io/efficientR/)
+
+
+<br/>
+
+
+## SQL
+Here are some useful resources for SQL:
+
+* [SQLZoo SQL Tutorial](https://sqlzoo.net/wiki/SQL_Tutorial)
+* [W3Schools SQL Tutorial](https://www.w3schools.com/sql/)
+* [The SQL Tutorial for Data Analysis](https://mode.com/sql-tutorial/introduction-to-sql/)
+* [SQL Join Types Explained Visually](https://dataschool.com/how-to-teach-people-sql/sql-join-types-explained-visually/)
+
+
+<br/>
+
+
+## Statistics
+Here are some useful resources for Statistics:
+
+* [PSU STAT 501: Regression Methods](https://online.stat.psu.edu/stat501/)
+* [UChicago: Learn Spatial Analysis](https://spatialanalysis.github.io/)
 
 
 <br/>

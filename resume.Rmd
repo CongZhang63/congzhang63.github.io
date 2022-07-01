@@ -11,8 +11,8 @@ output:
 ## Personal Information
 
 * Cong Zhang
-* Phone: (917) 345-3781
-* Email: Cong.Zhang.Columbia@Gmail.com
+* Phone: (646) 290-1234
+* Email: Cong.Zhang.Columbia [at] Gmail.com
 * GitHub: https://github.com/CongZhang63
 * LinkedIn: https://www.linkedin.com/in/cong-zhang-columbia
 
@@ -68,15 +68,14 @@ output:
 * Wrote project report and presented to faculty and students of Columbia and clinical researchers of NewYork-Presbyterian Hospital
 
 ##### Data Science Institute Scholar (Data Analyst), Department of Epidemiology <span style="display:inline-block; width: 165px;"></span> Nov 2021 – Present
-* Created COVID-19 patient database and conducted exploratory data analysis in SQL & R using Electronic Health Records Data
-* Plotted choropleth maps of socioeconomic and health factors using R & QGIS to evaluate geospatial clustering in New York City
-* Calculated Moran's I values and created Moran scatterplots and LISA significance maps in GeoDa to assess spatial autocorrelation
+* Created NYC COVID-19 database after exploratory data analysis of ~23.5M Electronic Health Records Data via SAS, SQL & R
+* Visualized geographic clustering of socioeconomic and health factors using R & QGIS to evaluate geospatial distribution in NYC
 * Examined statistical associations between chronic exposure to air pollution and severity of COVID-19 outcomes and disparities
 
 ##### Data Science Institute Scholar (Statistician), Center for International Earth Science Information Network <span style="display:inline-block; width: 5px;"></span> Mar 2022 – Present
-* Visualized geographic clusterings of natural disasters and fundings in Python & R using hazards data and Insurance Claims Data
-* Built spatial error and spatial lag models in GeoDa to assess spatial dependence in climatic hazards and sociodemographic factors
-* Constructed Generalized Linear Models (Poisson Regression) in Python & R to assess distribution of disaster risks and benefits
+* Plotted choropleth maps of U.S. natural disasters and government support in Python & QGIS using hazards data and funding data
+* Built Generalized Linear Models (Poisson Regression) in Python & R to evaluate natural disasters and sociodemographic factors
+* Constructed spatial error and spatial lag models in GeoDa to assess distributions and spatial dependence of government fundings
 
 ##### Teaching Assistant of Introduction to Biostatistical Methods, Department of Biostatistics <span style="display:inline-block; width: 60px;"></span> Aug 2021 – Dec 2021
 * Held R lab session and weekly office hours for ~60 graduate students to introduce R programming and clarify learning materials
@@ -96,7 +95,7 @@ output:
 
 ##### Data Collection Intern, China Health and Retirement Longitudinal Study (CHARLS) <span style="display:inline-block; width: 105px;"></span> Jun 2013 – Aug 2014
 * Led team of 6 survey interviewers and coordinated with project supervisors and local liaisons to facilitate survey implementation
-* Collected socio-economic and biomarker data by conducting personal interviews after locating and verifying sampled households
+* Collected socioeconomic and biomarker data by conducting personal interviews after locating and verifying sampled households
 * Supervised fieldwork to optimize data quality and achieved ~93% response rate by enhancing communication with respondents
 * Received Excellent Interviewer Award for CHARLS and return offer from Institute of Social Science Survey of Peking University
 
