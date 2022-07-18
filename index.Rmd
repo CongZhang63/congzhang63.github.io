@@ -76,6 +76,13 @@ Together with my friends, I also built machine learning models (lasso regression
 
 https://github.com/ruiyangli1/p8106_final_project
 
+<br/>
+
+-> Analyzing COVID-19 in New York City
+As a Data Science Institute Scholar (Data Analyst) of the REACH OUT Study, I have created the study population for the project, conducted exploratory data analysis, and now I'm fitting statistical models to evaluate the associations between chronic exposure to air pollution and severity of COVID-19 outcomes and disparities in New York City:
+
+https://github.com/CongZhang63/REACH_OUT_Study_Aim2
+
 
 <br/>
 
@@ -128,6 +135,7 @@ Here are some useful resources for R:
 ## SQL
 Here are some useful resources for SQL:
 
+* [SQL Tutorial](https://www.sqltutorial.org/)
 * [SQLZoo SQL Tutorial](https://sqlzoo.net/wiki/SQL_Tutorial)
 * [W3Schools SQL Tutorial](https://www.w3schools.com/sql/)
 * [The SQL Tutorial for Data Analysis](https://mode.com/sql-tutorial/introduction-to-sql/)
