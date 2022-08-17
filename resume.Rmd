@@ -11,7 +11,7 @@ output:
 ## Personal Information
 
 * Cong Zhang
-* Phone: (646) 290-1234
+* Phone: (929) 500-1255
 * Email: Cong.Zhang.Columbia [at] Gmail.com
 * GitHub: https://github.com/CongZhang63
 * LinkedIn: https://www.linkedin.com/in/cong-zhang-columbia
@@ -20,16 +20,16 @@ output:
 
 ## Education Background
 
-#### Columbia University, Mailman School of Public Health <span style="display:inline-block; width: 295px;"></span> New York, NY
-* Master of Science, Major in Biostatistics, Public Health Data Science Track, GPA 3.97	<span style="display:inline-block; width: 90px;"></span> Aug 2020 – May 2022
+#### Columbia University, Mailman School of Public Health <span style="display:inline-block; width: 290px;"></span> New York, NY
+* Master of Science, Major in Biostatistics, Public Health Data Science Track, GPA 3.97	<span style="display:inline-block; width: 80px;"></span> Aug 2020 – May 2022
 * Data Science Institute Scholar
 
-#### Peking University, National School of Development (Ivy League in China) <span style="display:inline-block; width: 155px;"></span> Beijing, China
-* Bachelor of Economics, Major in Economics	<span style="display:inline-block; width: 370px;"></span> Sep 2011 – Jul 2013
+#### Peking University, National School of Development (Ivy League in China) <span style="display:inline-block; width: 150px;"></span> Beijing, China
+* Bachelor of Economics, Major in Economics	<span style="display:inline-block; width: 365px;"></span> Sep 2011 – Jul 2013
 * Excellent Interviewer Award of Institute of Social Science Survey of Peking University
 
-#### Xi'an Jiaotong University, School of Life Science and Technology (Ivy League in China) <span style="display:inline-block; width: 75px;"></span> Xi'an, China
-* Bachelor of Engineering, Major in Bioengineering <span style="display:inline-block; width: 335px;"></span> Sep 2004 – Jul 2008
+#### Xi'an Jiaotong University, School of Life Science and Technology (Ivy League in China) <span style="display:inline-block; width: 55px;"></span> Xi'an, China
+* Bachelor of Engineering, Major in Bioengineering <span style="display:inline-block; width: 325px;"></span> Sep 2004 – Jul 2008
 * Gold Award of the Sixth Business Plan Competition of Xi'an Jiaotong University
 * Admitted with Exemption of National College Entrance Examination for 1st Prize Winner of Science Olympiad (~ 0.05% qualified)
 
@@ -38,10 +38,10 @@ output:
 ## Skills & Awards
 
 #### Programming
-* Python (NumPy, Pandas, Scikit-Learn, TensorFlow) | SQL | R (Markdown) | SAS (Macros) | Shiny | GIS | GitHub
+* Python (Pandas, NumPy, Scikit-Learn, TensorFlow) | SQL | R (Markdown) | SAS (Macros) | Git | Hadoop| Spark
 
 #### Statistics
-* Machine Learning | Spatial Analysis | Natural Language Processing | Longitudinal Data Analysis | Survival Analysis
+* Machine Learning | Deep Learning | Spatial Analysis | Natural Language Processing | Experimental Design | A/B Testing
 
 #### National Science Olympiad
 * 1st Prize of China High School Biology Olympiad, 3rd Prize of National Olympiad in Informatics in Province
@@ -59,56 +59,48 @@ output:
  
 ## Professional Experience
 
-#### Columbia University <span style="display:inline-block; width: 285px;"></span> New York, NY <span style="display:inline-block; width: 110px;"></span> Feb 2021 – Present 
+#### **Columbia University** <span style="display:inline-block; width: 425px;"></span> New York, NY | Feb 2021 – Present 
 
-##### Data Science Institute Scholar (Biostatistician), Center for Precision Medicine and Genomics <span style="display:inline-block; width: 50px;"></span> Feb 2021 – Present
+##### ***Data Science Institute Scholar (Biostatistician)***, Center for Precision Medicine and Genomics | Feb 2021 – Present
 * Conducted exploratory data analysis of ~6.7M gene data via Python & R and created training and test data for statistical modeling
 * Built GLM (Logistic Regression) and Machine Learning Models (Ridge, LASSO, Elastic Net, Random Forests) in Python & R
 * Performed Cross-Validation to select optimal model and identified key features for predicting true gene variants of kidney disease
-* Wrote project report and presented to faculty and students of Columbia and clinical researchers of NewYork-Presbyterian Hospital
 
-##### Data Science Institute Scholar (Data Analyst), Department of Epidemiology <span style="display:inline-block; width: 165px;"></span> Nov 2021 – Present
-* Created NYC COVID-19 database after exploratory data analysis of ~23.5M Electronic Health Records Data via SAS, SQL & R
-* Visualized geographic clustering of socioeconomic and health factors using R & QGIS to evaluate geospatial distribution in NYC
-* Examined statistical associations between chronic exposure to air pollution and severity of COVID-19 outcomes and disparities
+##### ***Data Science Institute Scholar (Data Analyst)***, Department of Epidemiology | Nov 2021 – Present
+* Created NYC COVID-19 database after exploratory data analysis of ~23.5M Electronic Health Records Data in SAS, SQL & R
+* Plotted choropleth maps of socioeconomic and health factors using R & QGIS to evaluate geospatial distribution in NYC
+* Conducted Survival Analyses for effects of demographics and air pollution on COVID-19 hospitalization and mortality via R
 
-##### Data Science Institute Scholar (Statistician), Center for International Earth Science Information Network <span style="display:inline-block; width: 5px;"></span> Mar 2022 – Present
-* Plotted choropleth maps of U.S. natural disasters and government support in Python & QGIS using hazards data and funding data
-* Built Generalized Linear Models (Poisson Regression) in Python & R to evaluate natural disasters and sociodemographic factors
-* Constructed spatial error and spatial lag models in GeoDa to assess distributions and spatial dependence of government fundings
+##### ***Data Science Institute Scholar (Statistician)***, Center for International Earth Science Information Network | Mar 2022 – Present
+* Visualized geographic clustering of natural disasters and federal fundings in Python & R using hazards data and flood insurance data
+* Constructed Poisson Regression in Python & R to assess effects of socioeconomic factors on disaster risks and government fundings
+* Wrote project report and provided research findings for press publication: [*How we found communities in harm’s way*](https://publicintegrity.org/environment/harms-way/communities-in-harms-way-disaster-data/)
 
-##### Teaching Assistant of Introduction to Biostatistical Methods, Department of Biostatistics <span style="display:inline-block; width: 60px;"></span> Aug 2021 – Dec 2021
-* Held R lab session and weekly office hours for ~60 graduate students to introduce R programming and clarify learning materials
-* Answered questions about hypothesis testing and regression analysis via email and graded homework assignments and final exam
+##### ***Teaching Assistant of Introduction to Biostatistical Methods***, Department of Biostatistics | Aug 2021 – Dec 2021
+* Held R lab and weekly office hour sessions to advise ~60 graduate students on R programming and statistical analysis
 
 <br/>
 
-#### Institute of Social Science Survey, Peking University <span style="display:inline-block; width: 43px;"></span> Beijing, China <span style="display:inline-block; width: 100px;"></span> Jun 2013 – Aug 2020 
+#### **Institute of Social Science Survey, Peking University** <span style="display:inline-block; width: 183px;"></span> Beijing, China | Jun 2013 – Aug 2020 
 
-##### Senior Data Analyst, China Family Panel Studies (CFPS) <span style="display:inline-block; width: 292px;"></span> Aug 2014 – Aug 2020
+##### ***Senior Data Analyst***, China Family Panel Studies (CFPS) | Aug 2014 – Aug 2020
+* Trained 900+ interviewers, detected patterns of fieldwork issues, and recommended solutions via analysis of performance metrics
 * Wrote data wrangling scripts using SQL & SAS Macros to detect and correct errors in ~152K survey data for quality optimization
-* Created address database of ~700K communities via SAS Macros and implemented de-identification algorithms for data privacy
-* Harmonized demographics data of ~150K respondents for fieldwork and managed metadata for data curation using SQL & SAS
-* Visualized survey data and customer data via SQL & SAS for project reports and maintained project website via HTML & CSS
-* Conducted survey questionnaire training for 900+ interviewers and mentored 70+ interns from China, United States and Canada
-* Performed descriptive statistical analysis of paradata to improve survey designs and provided data analysis consultation for clients
+* Harmonized 5 biennial surveys data via SQL & SAS, discovered survey deficiencies, and produced improvement recommendations
+* Developed and implemented data de-identification algorithms for data privacy, provided data analysis consultation for customers
+* Built client data pipeline, visualized customer growth and demographic statistics in SQL & SAS to communicate analytical results
 
-##### Data Collection Intern, China Health and Retirement Longitudinal Study (CHARLS) <span style="display:inline-block; width: 105px;"></span> Jun 2013 – Aug 2014
-* Led team of 6 survey interviewers and coordinated with project supervisors and local liaisons to facilitate survey implementation
-* Collected socioeconomic and biomarker data by conducting personal interviews after locating and verifying sampled households
-* Supervised fieldwork to optimize data quality and achieved ~93% response rate by enhancing communication with respondents
-* Received Excellent Interviewer Award for CHARLS and return offer from Institute of Social Science Survey of Peking University
+##### ***Data Collection Intern***, China Health and Retirement Longitudinal Study (CHARLS) | Jun 2013 – Aug 2014
+* Coordinated team leadership for 11 interviewers, identified sampled households, selected respondents with simple random sampling
+* Collected socioeconomic and vital signs data with computer-assisted personal interviews and recognized sources of data anomalies
+* Supervised fieldwork to optimize data quality, achieved ~93% survey response rate, and received Excellent Interviewer Award
 
 <br/>
 
-#### Dihon Pharmaceutical Group Co., Ltd.	<span style="display:inline-block; width: 150px;"></span> Kunming, China <span style="display:inline-block; width: 80px;"></span> Sep 2008 – Nov 2010
+#### **Dihon Pharmaceutical Group Co., Ltd.**	<span style="display:inline-block; width: 290px;"></span> Kunming, China | Sep 2008 – Nov 2010
 
-##### Regional Manager, Daily Cosmetics Sales Department <span style="display:inline-block; width: 138px;"></span> Sep 2008 – Jan 2009 & Aug 2010 – Nov 2010
-* Extended ~25 new wholesale and retail partners by analyzing self-collected market data and adopting new local pricing tactics
-* Revitalized brand image by building ~10 flagship stores with retailers and improving products' shelf displays of ~400 retail stores
+##### ***Regional Manager*** | Sep 2008 – Jan 2009 & Aug 2010 – Nov 2010, ***Product Specialist*** | Jan 2009 – Jan 2010
+* Evaluated competitors by collecting market data from ~400 retail stores and designed incentive programs with new pricing strategy
+* Assessed geographic distribution of sales data and extended ~25 new wholesale and retail partners to increase distribution coverage
+* Analyzed sales, profit, and marketing cost data to identify key stores and revitalized brand image by building ~10 flagship stores
 * Cleared ¥500,000 stagnant inventory via diverse promotion activities and boosted ~430% growth in local monthly sales revenue
-
-##### Product Specialist, Rx Medicine Marketing Department <span style="display:inline-block; width: 298px;"></span> Jan 2009 – Jan 2010
-* Assessed key competitors after collecting marketing information and arranged products exhibitions at 3 symposia for branding
-* Organized ~10 educational conferences and provided sales team with marketing tools to improve communication with customers
-* Evaluated regional marketing budget and business performance by analyzing relevant expense reimbursement and sales growth

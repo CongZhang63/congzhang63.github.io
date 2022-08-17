@@ -41,8 +41,8 @@ If you are interested in my academic and work experience, please refer to my [Re
 
 ## Data Analysis
 
-* Programming: Python (NumPy, Pandas, Scikit-Learn, TensorFlow) | SQL | R (Markdown) | SAS (Macros) | Shiny | GIS | GitHub
-* Statistics: Machine Learning | Spatial Analysis | Natural Language Processing | Longitudinal Data Analysis | Survival Analysis
+* Programming: Python (Pandas, NumPy, Scikit-Learn, TensorFlow) | SQL | R (Markdown) | SAS (Macros) | Git | Hadoop| Spark
+* Statistics: Machine Learning | Deep Learning | Spatial Analysis | Natural Language Processing | Experimental Design | A/B Testing
 
 
 <br/>
@@ -79,6 +79,7 @@ https://github.com/ruiyangli1/p8106_final_project
 <br/>
 
 -> Analyzing COVID-19 in New York City
+
 As a Data Science Institute Scholar (Data Analyst) of the REACH OUT Study, I have created the study population for the project, conducted exploratory data analysis, and now I'm fitting statistical models to evaluate the associations between chronic exposure to air pollution and severity of COVID-19 outcomes and disparities in New York City:
 
 https://github.com/CongZhang63/REACH_OUT_Study_Aim2
