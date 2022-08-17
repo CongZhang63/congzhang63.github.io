@@ -20,16 +20,16 @@ output:
 
 ## Education Background
 
-#### Columbia University, Mailman School of Public Health <span style="display:inline-block; width: 290px;"></span> New York, NY
-* Master of Science, Major in Biostatistics, Public Health Data Science Track, GPA 3.97	<span style="display:inline-block; width: 80px;"></span> Aug 2020 – May 2022
+#### **Columbia University, Mailman School of Public Health** <span style="display:inline-block; width: 292px;"></span> New York, NY
+* *Master of Science*, Major in Biostatistics, Public Health Data Science Track, GPA 3.97	<span style="display:inline-block; width: 90px;"></span> Aug 2020 – May 2022
 * Data Science Institute Scholar
 
-#### Peking University, National School of Development (Ivy League in China) <span style="display:inline-block; width: 150px;"></span> Beijing, China
-* Bachelor of Economics, Major in Economics	<span style="display:inline-block; width: 365px;"></span> Sep 2011 – Jul 2013
+#### **Peking University, National School of Development** (Ivy League in China) <span style="display:inline-block; width: 150px;"></span> Beijing, China
+* *Bachelor of Economics*, Major in Economics	<span style="display:inline-block; width: 375px;"></span> Sep 2011 – Jul 2013
 * Excellent Interviewer Award of Institute of Social Science Survey of Peking University
 
-#### Xi'an Jiaotong University, School of Life Science and Technology (Ivy League in China) <span style="display:inline-block; width: 55px;"></span> Xi'an, China
-* Bachelor of Engineering, Major in Bioengineering <span style="display:inline-block; width: 325px;"></span> Sep 2004 – Jul 2008
+#### **Xi'an Jiaotong University, School of Life Science and Technology** (Ivy League in China) <span style="display:inline-block; width: 50px;"></span> Xi'an, China
+* *Bachelor of Engineering*, Major in Bioengineering <span style="display:inline-block; width: 335px;"></span> Sep 2004 – Jul 2008
 * Gold Award of the Sixth Business Plan Competition of Xi'an Jiaotong University
 * Admitted with Exemption of National College Entrance Examination for 1st Prize Winner of Science Olympiad (~ 0.05% qualified)
 
@@ -81,7 +81,7 @@ output:
 
 <br/>
 
-#### **Institute of Social Science Survey, Peking University** <span style="display:inline-block; width: 183px;"></span> Beijing, China | Jun 2013 – Aug 2020 
+#### **Institute of Social Science Survey, Peking University** <span style="display:inline-block; width: 175px;"></span> Beijing, China | Jun 2013 – Aug 2020 
 
 ##### ***Senior Data Analyst***, China Family Panel Studies (CFPS) | Aug 2014 – Aug 2020
 * Trained 900+ interviewers, detected patterns of fieldwork issues, and recommended solutions via analysis of performance metrics
@@ -97,7 +97,7 @@ output:
 
 <br/>
 
-#### **Dihon Pharmaceutical Group Co., Ltd.**	<span style="display:inline-block; width: 290px;"></span> Kunming, China | Sep 2008 – Nov 2010
+#### **Dihon Pharmaceutical Group Co., Ltd.**	<span style="display:inline-block; width: 285px;"></span> Kunming, China | Sep 2008 – Nov 2010
 
 ##### ***Regional Manager*** | Sep 2008 – Jan 2009 & Aug 2010 – Nov 2010, ***Product Specialist*** | Jan 2009 – Jan 2010
 * Evaluated competitors by collecting market data from ~400 retail stores and designed incentive programs with new pricing strategy
